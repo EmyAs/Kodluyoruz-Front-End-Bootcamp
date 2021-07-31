@@ -1,0 +1,20 @@
+.section-card_button {
+    width: 140px;
+    font-size: $fs-medium;
+    font-weight: $fw-large;
+    font-family: $font-family;
+    color: $content-colorred;
+    cursor: pointer;
+    border: 2px solid $content-colorred;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+
+   &-active:hover {
+    background-color: $content-colorred;
+    color: #fff;
+    box-shadow: 0px 12px 20px #fdd4d4;
+   }
+}

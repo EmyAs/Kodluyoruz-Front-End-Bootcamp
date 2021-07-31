@@ -1,0 +1,12 @@
+.logo{
+
+                              display: flex;
+                              flex-direction: row;
+                              align-items:center;
+                              & :nth-child(1){
+                              margin-right: 10px;
+                              }
+                              &__image{
+                                 margin: 0;
+                              }
+                             }

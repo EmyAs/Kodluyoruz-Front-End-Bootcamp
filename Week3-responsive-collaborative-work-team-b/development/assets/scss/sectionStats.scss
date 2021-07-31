@@ -1,0 +1,37 @@
+.stats{
+    width: 100%;
+    margin-top: 78px;
+    font-family: "Rubik", sans-serif;
+    &__container{
+        display: flex;
+        align-items: center;
+        max-width: 1140px;
+        height: 200px;
+        border-radius: 10px;
+        margin: 0 auto;
+        border: solid 2px #DDDDDD;
+        box-shadow: 0 0 114px rgba(13, 16, 37, .06);
+        background-color: #fff;
+    }
+    &__card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 33.33%;
+        border-right: solid 2px #EEEFF2;
+    }
+    &__card:last-child{
+        border-right: none;
+    }
+    &__card-description{
+        margin-left: 37px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__card__title{
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+        color: #0B132A;
+    }
+}

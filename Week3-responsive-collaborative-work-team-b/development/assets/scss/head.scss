@@ -1,0 +1,53 @@
+.header{
+display: flex; 
+justify-content:space-around;
+align-items:center;
+padding-top: 45px;
+
+
+&__nav{    
+ 
+   &-links{
+      text-decoration: none;
+      &:nth-child(-n+4) {
+         margin-right: 40px;   
+                         }   
+      font-family:$font-family;
+      font-style: normal;
+      font-size: $rem-baseline;
+      color: $content-colorlight;
+      font-weight: $fw-small;
+         }                       
+}
+&__buttons{
+  background:white;
+
+&-in{
+   margin-right: 30px;
+   text-decoration: none;
+   font-weight: $fw-medium;
+   font-size :$fs-medium;
+   color:$content-colordark;
+
+                  
+ }
+                              
+ &-up{
+ display: inline-block;
+ width:150px;
+height:45px;
+ border-radius: 50px;
+ background-color:white;
+ border:solid 1px  $button-bgc;
+color: $button-bgc;
+font-weight: $fw-medium;
+font-size:$fs-medium;
+line-height:19px;
+
+ 
+ }
+                  
+                         
+                                      }
+
+}

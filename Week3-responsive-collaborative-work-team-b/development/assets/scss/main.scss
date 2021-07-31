@@ -1,0 +1,26 @@
+@import './globals/variables';
+
+@import './mixin/font-size';
+@import './mixin/z-index';
+@import './mixin/media-query';
+
+
+@import './base';
+@import './home';
+@import './section-home';
+@import './footer';
+@import './head';
+@import './logo';
+
+@import './section-choose.scss';
+@import './section-huge.scss';
+@import "./button.scss";
+@import "./button-selected.scss";
+// @import './header';
+
+
+@import './sectionStats';
+@import './sectionFunction';
+@import './sectionComments';
+@import './sectionCommentsSubscribe';
+@import './sectionCommentsCards';

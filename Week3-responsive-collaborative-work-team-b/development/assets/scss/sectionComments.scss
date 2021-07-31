@@ -1,0 +1,87 @@
+.comments{
+    width: 100%;
+    font-family: "Rubik", sans-serif;
+    &__title{
+        text-align: center;
+        width:447.81px;
+        margin: 50px auto 20px;
+        color: #0B132A;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 50px;
+    }
+    &__description{
+        width: 555px;
+        text-align: center;
+        margin: 0 auto;
+        color: #4F5665;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    &__container{
+        padding-bottom: 185px;
+        padding-left: 80px;
+        padding-right: 60px;
+    }
+    &__slider{
+        display: flex;
+        width: 100%;
+        margin: 80px auto 0;
+        height: 230px;
+        background: linear-gradient(#F4F4F5,#fff);
+    }
+    &__slider-control{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 60px auto;
+        max-width: 1142px;
+        width: 100%;
+        height: 60px;
+    }
+    &__slider-state{
+        display: flex;
+        justify-content: space-between;
+        max-width: 135px;
+        width: 100%;
+        height: 15px;
+    }
+    &__slider-active-indicator{
+        width: 45px;
+        border-radius: 7px;
+        background-color: #F53838;
+        cursor:pointer;
+        
+    }
+    &__slider-indicator{
+        width: 15px;
+        height: 15px;
+        background-color: #DDE0E4;
+        border-radius: 50%;
+        cursor:pointer;
+
+    }
+    &__slider-active-indicator:hover{
+        transform: scale(1.3);
+    }
+    &__slider-btns{
+        display: flex;
+        
+    }
+    &__slider-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 2px #F53838;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        cursor:pointer;
+    }
+    &__slider-btn:last-child{
+        background-color: #F53838;
+        margin-left: 20px;
+        
+    }
+}

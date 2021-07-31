@@ -1,0 +1,67 @@
+.comments{
+    &__cards{
+        border: solid 2px #DDDDDD;
+        border-radius: 10px;
+        width: 400px;
+        height: 230px;
+        background-color: white;
+        cursor:pointer;
+
+    }
+    &__cards:not(:first-child){
+        margin-left: 80px;
+
+    }
+    &__cards:hover{
+        border: solid 2px #F53838;
+        transform: scale(1.1);
+        box-shadow: 0 71px 114px rgba(13, 16, 37, .06);
+    }
+    &__card-header{
+        display: flex;
+        align-items: center;
+        height: 80px;
+        width: 100%;
+        padding: 30px 30px 0;
+    }
+    &__card-avatar{
+        display: block;
+        width: 50px;
+        height: 50px;
+    }
+    &__card-description{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: auto;
+    }
+    &__card-name{
+        color: #0B132A;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    &__card-country{
+        color: #4F5665;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    &__card-rating{
+        color: #0B132A;
+        margin-right: 11.8px;
+        font-weight: 400;
+        font-size: 16px;
+        margin-left: 32.8px;
+        line-height: 30px;
+    }
+    &__card-text{
+        font-family: "Rubik", normal;
+        display: block;
+        margin: 20px 30px 5px;
+        color: #0B132A;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
